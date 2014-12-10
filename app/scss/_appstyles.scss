@@ -1,0 +1,9 @@
+/* all app scss styles here */
+
+@import "compass/css3";
+@import "compass/utilities";
+
+.triangle{
+    @include css-triangle(20px, #000, right);
+    background:#fff;
+}
